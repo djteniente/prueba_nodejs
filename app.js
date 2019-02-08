@@ -12,7 +12,7 @@ app.set("view engine", "jade");
 app.get("/", function(req, res){
 	res.render("index");
 });
-
+ 
 app.get("/login", function(req, res){
 	console.log(req.body);
 	res.render("login");
